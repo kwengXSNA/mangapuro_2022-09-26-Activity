@@ -46,7 +46,3 @@ public class Main {
         }
     }
 }
-
-//this is christina
-
-//okay fine
