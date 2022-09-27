@@ -19,17 +19,10 @@ public class Main {
         List<String> details = new ArrayList<String>();
         Scanner input = new Scanner(System.in);
 
-        details.add("NAME: ");
-        details.add("NICKNAME: ");
-        details.add("RESIDENCY: ");
-        details.add("HOBBIES ");
-        details.add("FAVORITES: ");
-
-
-        /* System.out.println("NAME: ");
+        System.out.println("NAME: ");
         String d = input.nextLine();
         details.add(d);
-
+        
         System.out.println("NICKNAME: ");
         String d1 = input.nextLine();
         details.add(d1);
@@ -46,7 +39,15 @@ public class Main {
         String d4 = input.nextLine();
         details.add(d4);
 
-        System.out.println("Hi! I am "++""); */
+        /*System.out.println(details.toString());*/
+
+        Iterator<String> i=set.iterator();  
+        while(i.hasNext())  
+        {  
+        System.out.println(i.next());  
+        }
+
+
 
 
     }
