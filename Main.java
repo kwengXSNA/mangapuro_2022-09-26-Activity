@@ -41,7 +41,7 @@ public class Main {
 
         /*System.out.println(details.toString());*/
 
-        Iterator<String> i=set.iterator();  
+        Iterator<String> i=details.iterator();  
         while(i.hasNext())  
         {  
         System.out.println(i.next());  
