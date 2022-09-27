@@ -20,12 +20,11 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
         details.add("NAME: ");
-        details.add("BLOOD TYPE: ");
-        details.add("RESIDENCE: ");
-        details.add("SKIN COLOR: ");
-        details.add("HAIR COLOR: ");
+        details.add("NICKNAME: ");
+        details.add("RESIDENCY: ");
+        details.add("HOBBIES ");
+        details.add("FAVORITES: ");
 
-        System.out.println(details);
 
         /* System.out.println("NAME: ");
         String d = input.nextLine();
