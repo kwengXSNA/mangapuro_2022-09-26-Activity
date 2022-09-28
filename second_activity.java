@@ -18,9 +18,36 @@ public class second_activity {
 
     //1. Create a program that will continuously ask the user for a selection (menu). Implement these in ArrayList, HashSet, and HashMap implementation
     public static void main(String[] args) {
+
+        int q = 0; 
+
         List<Integer> numbers = new ArrayList<Integer>();
+        Scanner input = new Scanner(System.in);
+
+        while (q==0){
+            System.out.println("MENU \n [A] Add Number \n [B] Remove Number \n [C] Display Number \n [D] Clear Numbers \n (E) Exit");
+            int choice = input.nextInt();
+
+            if (choice == "A"){
+                System.out.println("Enter the number: ");
+
+                if (number =<0){
+                    
+                }
+            }
+
+
+
+        }
 
 //add numbers
+
+        
+
+       if (){
+
+       }
+
         numbers.add (0,1485);
         numbers.add (1,0245);
         numbers.add (2,0000);
