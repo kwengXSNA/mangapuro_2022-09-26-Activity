@@ -37,8 +37,6 @@ public class Main {
         String d4 = input.nextLine();
         details.add(d4);
 
-        /*System.out.println(details.toString());*/
-
         Iterator<String> i=details.iterator();  
         while(i.hasNext())  
         {  
