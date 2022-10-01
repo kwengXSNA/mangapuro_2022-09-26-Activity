@@ -44,7 +44,7 @@ public class activity2_array {
                         System.out.println(" ");
 
                     } else if (pinili == 3) {
-                        System.out.println("Display Number: " + numbers);
+                        System.out.println(numbers);
                         System.out.println(" ");
 
                     } else if (pinili == 4){
@@ -56,19 +56,7 @@ public class activity2_array {
                         
                             System.out.println("Thank you.");
                             System.out.println(0);
-                            // char pili2 =input.next().charAt(0);
-                            // pili2 = Character.toUpperCase(pili2);
-
-                            // if (pili2 == 'Y') {
-                            //     oks = true;
-                            // } else if (pili2 == 'N') {
-                            //     System.out.println("Thank you.");
-                            //     pili = true;
-                            //     System.exit(0);
-                            // } else {
-                            //     System.out.println("Invalid entry. Try again.");
-                            // }
-        
+                            
                     } else {
                         System.out.println("Not an option");
                             System.out.println("Would you like to run again? Y/N");
